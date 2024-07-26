@@ -5,9 +5,11 @@ import lombok.Data;
 @Data
 public class CategoryDto {
 
+    private String hello;
+
     private String categoryName;
 
-    private Boolean status;
+    private boolean status;
 
     private int sortOrder;
 }
